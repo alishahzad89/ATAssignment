@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="Axiom Telecom Test Suite" verbose="2" >
+	<test name="Axiom Telecom Tests" group-by-instances="false" preserve-order="true">
+		<classes>
+			<class name="test.java.ATTest" />
+			<class name="test.java.ATTest2" />
+		</classes>
+	</test>
+</suite>
