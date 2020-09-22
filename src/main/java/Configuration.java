@@ -3,7 +3,7 @@ package main.java;
 import java.util.Properties;
 
 public class Configuration {
-    String baseURL;
+    private String baseURL;
     public Configuration(Properties property){
         baseURL = property.getProperty("baseURL");
     }

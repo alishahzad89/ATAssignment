@@ -6,16 +6,6 @@ This repository contains Test Automation written in Java + Rest Assured + Maven 
 
 - Getting frequent too many request error
 
-## Automation Approach
-
-- created class APIHelper to store the definite location of all resources. 
-- Store data file name from json file and pass the to test cases at runtime
-- DataReader class to read the json file into map to pass that to test methods
-- FileReader class to read file, and store each line into string array
-- ResponseComparator class – this has all logic to do comparison of json, it has one recursive method to compare expected vs actual.
-- Response validator class to have the assertion and print the logs
-- RestUtil class to get rest assured response using url.
-
 ## Prerequisite
 - Maven is setup in your system
 - Either eclipse or IntelliJ is configured 
@@ -23,7 +13,7 @@ This repository contains Test Automation written in Java + Rest Assured + Maven 
 
 ## Setting up
 
-* Clone project from github (https://github.com/alishahzad89/dkatalislabs)
+* Clone project from github (https://github.com/alishahzad89/ATAssignment)
 * Import as maven project to Ide(Eclipse/IntelliJs) from cloned repository
 * wait for Maven to download all external dependency
 

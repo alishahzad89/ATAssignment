@@ -16,8 +16,9 @@ public class TestBase {
 
     protected static String baseURL;
     protected Map<String, String> testData;
+
     @BeforeSuite
-    public void initialize() throws CustomException {
+    public void oneTimeSetup() throws CustomException {
         Helper helper = new Helper();
         helper.readPropertyFile("config.properties");
         Configuration configuration = new Configuration(helper.readPropertyFile("config.properties"));

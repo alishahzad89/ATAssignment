@@ -14,6 +14,9 @@ import java.util.Set;
 public class ResponseValidator {
 
 	SoftAssert softAssert = new SoftAssert();
+
+
+	// Validate profile image
 	public void validateProfileImage(Response response){
 		JsonParser parser = new JsonParser();
 		softAssert.assertEquals(response.getStatusCode(),Constants.HTTP_OK,"Validate status code");
@@ -28,6 +31,7 @@ public class ResponseValidator {
 
 	}
 
+	// validate employee data
 	public void validateEmployeeData(Response response) {
 		String [] keyArrays = {"id","employee_name","employee_salary","employee_age","profile_image"};
 		Set<String> expectedKeys = new HashSet<String>(Arrays.asList(keyArrays));
@@ -44,5 +48,4 @@ public class ResponseValidator {
 		softAssert.assertAll();
 
 	}
-
 }
