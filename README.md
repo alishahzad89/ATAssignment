@@ -34,9 +34,12 @@ This repository contains Test Automation written in Java + Rest Assured + Maven 
 Test output can be seen on terminal while running from cmd/terminal
 If running from Ide tests output can be seen on ide console.
 
+### HTML Report
+After Testng execution navigate to - target -> surefire-report -> emailable-report.html
+
 ### Existing execution report
 
-Please open screenshot 'SampleExecutionScreenshot' file available at project folder
+Please open screenshot 'SampleExecutionScreenshot.png' file available at project folder
 
 
 ## Author
